@@ -1,0 +1,28 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+*{
+	/* Colors: */
+	-fx-unnamed-color-ffffff: #FFFFFF;
+	-fx-fields: #878787;
+	-fx-label: #000A3D;
+	-fx-cor-primaria: #000E8D;
+	-fx-renda: #1D9800;
+	-fx-despesa-fixa: #CE0000;
+	-fx-despesa: #D98200;
+	-fx-lazer: #8300BA;
+	-fx-reserva: #00BCA9;
+	-fx-boxdespesafixa: #FFC4C4;
+	-fx-boxdespesa: #FDFFC4;
+	-fx-removerbutton: #FF0000;
+}
+.label{
+	-fx-font-family: Arial;
+	-fx-font-weight:900;
+	-fx-text-fill:-fx-label;
+	-fx-font-size: 20px;
+}
+.button{
+	-fx-background-color: -fx-cor-primaria;
+	-fx-font-size: 12px;
+	-fx-text-fill:-fx-unnamed-color-ffffff;
+	-fx-font-weight:bold;
+}
