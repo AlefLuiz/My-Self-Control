@@ -6,9 +6,7 @@
 #### Sobre:
 
 Software totalmente idealizado por mim. No passado utilizava uma planilha no Excel para gerenciar meus gastos e ter um controle financeiro, após estudar sobre Hibernate e JavaFx me vi numa oportunidade de por em prática e testar/aprimorar meus conhecimentos.
-A primeira etapa foi elaborar um WireFrame de Alta Fidelidade, utilizei o software Adobe XD e o resultado vemos logo abaixo:
-<img src="https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/wireframe.png" width="80%" align="center">
-<br>
+A primeira etapa foi elaborar um WireFrame de Alta Fidelidade, utilizei o software Adobe XD.
 O próximo passo foi elaborar os modelos de entidades e testar a conexão/criação do banco de dados, estando tudo funcionando parti pras Views.
 Utilizando JavaFx, foi possível projetar as Views perfeitamente iguais ao WireFrame, usando arquivos FXML, CSS e Controladores em Java.
 
