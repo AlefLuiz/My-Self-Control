@@ -54,7 +54,7 @@ public class UsersController {
 		Refresh();
 		StartMain.popUp("Removido com sucesso!");
 		StartMain.refreshInfo();
-		StartMain.refreshExpenses();
+		StartMain.refreshUsersExpenses();
 	}
 
 	public void SaveUser() {

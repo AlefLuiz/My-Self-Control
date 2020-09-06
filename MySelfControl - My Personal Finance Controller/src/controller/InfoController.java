@@ -1,6 +1,8 @@
 package controller;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 import javafx.fxml.FXML;
 import javafx.scene.chart.PieChart;
@@ -60,9 +62,12 @@ public class InfoController {
 			recreation.setText("R$ " + selectedUser.getRecreation());
 			fixedexpense.setText("R$ " + selectedUser.getTotalFixedExpenses());
 			expense.setText("R$ " + selectedUser.getTotalInstallments());
-			totalexpenses.setText("R$ " + (selectedUser.getTotalInstallments() + selectedUser.getTotalFixedExpenses()));
-			total.setText("R$ " + (selectedUser.getTotalInstallments() + selectedUser.getTotalFixedExpenses()
-					+ selectedUser.getReserve() + selectedUser.getRecreation()));
+			totalexpenses.setText("R$ "
+					+ (new BigDecimal((selectedUser.getTotalInstallments() + selectedUser.getTotalFixedExpenses()))
+							.setScale(2, RoundingMode.HALF_EVEN)).doubleValue());
+			total.setText("R$ " + (new BigDecimal((selectedUser.getTotalInstallments()
+					+ selectedUser.getTotalFixedExpenses() + selectedUser.getReserve() + selectedUser.getRecreation()))
+							.setScale(2, RoundingMode.HALF_EVEN)).doubleValue());
 			graficoPizza.getData().clear();
 			graficoPizza.getData().addAll(new PieChart.Data("Despesa Fixa", selectedUser.getTotalFixedExpenses()),
 					new PieChart.Data("Reserva", selectedUser.getReserve()),

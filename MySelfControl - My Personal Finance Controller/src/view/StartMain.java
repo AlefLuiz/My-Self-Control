@@ -52,10 +52,18 @@ public class StartMain extends Application {
 		launch(args);
 	}
 
-	public static void refreshExpenses() {
+	public static void refreshUsersExpenses() {
 		ExpensesController controlador = StartMain.loaders.get("Expenses").getController();
 		try {
 			controlador.refreshUsers();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	public static void refreshExpenses() {
+		ExpensesController controlador = StartMain.loaders.get("Expenses").getController();
+		try {
+			controlador.refreshAllExpenses();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
