@@ -17,10 +17,22 @@ Utilizando JavaFx, foi possível projetar as Views perfeitamente iguais ao WireF
  
 #### Prints
 
-| Users | Info | Expenses |
-| :--------: | :--------: | :--------: |
-| ![users.jpg](https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/Users.png) | ![info.jpg](https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/Info.png) | ![expense.jpg](https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/Expenses.png) | 	
-| *Tela de cadastro/alteração de usuários, informe seu nome completo, cpf, renda, quanto gostaria de guardar e o quanto gostaria de usar para lazer.* | *Tela de informações gerais com gráfico em Pizza, nela você consegue ver onde precisa melhorar para se encaixar no seu planejamento.* | *Tela de cadastro e gerenciamento de despesas, seja fixa ou variavel.* |
+
+| Users |
+| :--------: |
+| ![users.jpg](https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/Users.png) |
+| *Tela de cadastro/alteração de usuários, informe seu nome completo, cpf, renda, quanto gostaria de guardar e o quanto gostaria de usar para lazer.* |
+
+| Info |
+| :--------: |
+| ![info.jpg](https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/Info.png) |
+| *Tela de informações gerais com gráfico em Pizza, nela você consegue ver onde precisa melhorar para se encaixar no seu planejamento.* |
+
+| Expenses |
+| :--------: |
+| ![expense.jpg](https://github.com/AlefLuiz/My-Self-Control/blob/master/assets/Expenses.png) | 	
+| *Tela de cadastro e gerenciamento de despesas, seja fixa ou variavel, nela você adiciona as despesas ou remove as existentes.* |
+
 
 #### Releases:
  
